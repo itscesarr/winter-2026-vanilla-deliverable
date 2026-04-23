@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Experience</title>
+  <title>579-Vanilla</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+
 
 <header>
   <h1>My Work Experience</h1>
@@ -19,10 +21,22 @@
   <button data-filter="all">All</button>
   <button data-filter="frontend">Frontend</button>
   <button data-filter="backend">Backend</button>
+  <button data-filter="design">Design</button>
+  <button data-filter="project-management">Project Management</button>
+  <button data-filter="other">Other</button>
 </section>
 
 <section id="experience" class="grid"></section>
 
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="closeBtn" class="close">&times;</span>
+    <h1>Hello.</h1>
+    <p>This site showcases my work experience and projects. Feel free to explore!</p>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
