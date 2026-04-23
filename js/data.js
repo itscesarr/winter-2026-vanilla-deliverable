@@ -1,28 +1,28 @@
 const experiences = [
   {
     title: "Frontend Developer",
-    company: "Tech Co",
+    company: "UMSI",
     type: "frontend",
-    description: "Built UI components using JavaScript.",
+    description: "Built UI components using JavaScript and frameworks like React.",
     details: "Worked on interactive dashboards and optimized performance."
   },
   {
     title: "Backend Developer",
-    company: "Startup Inc",
+    company: "UMSI",
     type: "backend",
     description: "Developed APIs and database systems.",
     details: "Implemented authentication and scalable architecture."
   },
   {
     title: "UI/UX Designer",
-    company: "Design Studio",
+    company: "UMSI, Stamps",
     type: "design",
     description: "Created wireframes and prototypes.",
     details: "Collaborated with developers to ensure design feasibility."
   },
   {
     title: "Project Manager",
-    company: "Enterprise Solutions",
+    company: "UMSI",
     type: "project-management",
     description: "Led cross-functional teams to deliver projects on time.",
     details: "Managed timelines, resources, and stakeholder communication."
@@ -35,10 +35,10 @@ const experiences = [
     details: "Handled everything from development to client communication."
   },
   {
-    title: "Freelance Developer",
+    title: "Photography",
     company: "Self-employed",
     type: "other",
-    description: "Worked on various client projects.",
-    details: "Handled everything from development to client communication."
+    description: "Freelance photographer specializing in events and portraits.",
+    details: "Hiree for graduation, social events, and family and business portraits."
   }
 ];

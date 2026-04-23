@@ -4,6 +4,13 @@ body {
   background: rgb(255, 254, 249);
 }
 
+footer{
+    background: #2222225c;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
 header {
   background: #222;
   color: white;
@@ -99,3 +106,5 @@ button:hover {
   from { opacity: 0; transform: scale(0.9); }
   to { opacity: 1; transform: scale(1); }
 }
+
+

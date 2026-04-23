@@ -30,14 +30,12 @@ function renderExperiences(filter = "all") {
   });
 }
 
-// Filter buttons
 buttons.forEach(btn => {
   btn.addEventListener("click", () => {
     renderExperiences(btn.dataset.filter);
   });
 });
 
-// Initial render
 renderExperiences();
 
 
@@ -54,9 +52,12 @@ closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
 });
 
+// Source - https://stackoverflow.com/a/10234834
+
 window.addEventListener("click", (e) => {
   if (e.target === modal) {
     modal.style.display = "none";
   }
 });
+
 
